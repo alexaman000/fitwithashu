@@ -42,8 +42,8 @@ export default async function RootLayout({
       lang={locale}
       className={`${inter.variable} ${notoSansDevanagari.variable} h-full antialiased dark`}
     >
-      <body className="min-h-full flex flex-col bg-primary text-foreground overflow-x-hidden">
-        <div className="watermark-bg"></div>
+      <body className="min-h-full flex flex-col text-foreground overflow-x-hidden">
+        <div className="main-bg"></div>
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
