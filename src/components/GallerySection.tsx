@@ -30,7 +30,7 @@ export default function GallerySection() {
   };
 
   return (
-    <section id="vault" className="relative w-full py-32 bg-[#0B0B0B] text-white">
+    <section id="vault" className="relative w-full py-32 bg-[#0B0B0B]/60 backdrop-blur-md text-white">
       {/* Fade out gradients */}
       <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-b from-[#0B0B0B] to-transparent z-10 pointer-events-none" />
       <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-[#0B0B0B] to-transparent z-10 pointer-events-none" />

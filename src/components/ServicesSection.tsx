@@ -22,7 +22,7 @@ export default function ServicesSection() {
   ];
 
   return (
-    <section id="services" className="relative w-full py-32 px-6 md:px-16 lg:px-24 bg-[#0a0a0a] text-white">
+    <section id="services" className="relative w-full py-32 px-6 md:px-16 lg:px-24 bg-[#0a0a0a]/70 backdrop-blur-md text-white">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col items-center text-center space-y-4 mb-20">
           <div className="w-12 h-1 bg-accent"></div>

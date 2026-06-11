@@ -18,13 +18,13 @@ export default function HeroSection() {
 
   return (
     <>
-      <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-primary">
+      <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-transparent">
         {/* Animated Background Mesh & Lights */}
         <div className="absolute inset-0 z-0">
           <div className="absolute top-[20%] left-[10%] w-[30vw] h-[30vw] rounded-full bg-accent/10 blur-[120px] animate-pulse" />
           <div className="absolute bottom-[20%] right-[10%] w-[35vw] h-[35vw] rounded-full bg-accent/5 blur-[150px]" />
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_20%,#0B0B0B_80%)]" />
-          <div className="absolute inset-0 bg-gradient-to-b from-[#0B0B0B]/40 via-[#0B0B0B]/80 to-[#0B0B0B]" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_20%,rgba(11,11,11,0.6)_80%)]" />
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0B0B0B]/50 to-[#0B0B0B]/80" />
         </div>
         
         {/* Content Container */}

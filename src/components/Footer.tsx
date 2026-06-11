@@ -34,7 +34,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="w-full bg-[#070707] border-t border-white/5 py-16 px-6 md:px-12 relative overflow-hidden">
+    <footer className="w-full bg-[#070707]/70 backdrop-blur-xl border-t border-white/5 py-16 px-6 md:px-12 relative overflow-hidden">
       {/* Background Accent glow */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-96 h-96 bg-accent/5 rounded-full blur-[100px] pointer-events-none" />
 
