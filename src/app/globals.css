@@ -45,7 +45,7 @@ body {
 .watermark-bg {
   position: fixed;
   inset: 0;
-  z-index: 0;
+  z-index: 50;
   pointer-events: none;
   background-image: url('/images/gallery/watermark.png');
   background-size: cover;

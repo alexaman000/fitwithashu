@@ -113,7 +113,7 @@ export default function AboutSection() {
           <div className="absolute inset-0 bg-gradient-to-t from-primary via-transparent to-transparent z-10"></div>
           {/* Using a placeholder for now until we load the gallery images properly, but let's use one of the uploaded ones */}
           <img
-            src="/images/gallery/about-new.jpeg"
+            src="/images/gallery/hero-about.jpeg"
             alt="Ashutosh Kumar Soldier"
             className="w-full h-full object-cover object-top rounded-lg transition-all duration-700 transform group-hover:scale-105"
           />
