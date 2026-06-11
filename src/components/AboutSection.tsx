@@ -115,7 +115,7 @@ export default function AboutSection() {
           <img
             src="/images/gallery/about-new.jpeg"
             alt="Ashutosh Kumar Soldier"
-            className="w-full h-full object-cover object-top rounded-lg filter grayscale group-hover:grayscale-0 transition-all duration-700 transform group-hover:scale-105"
+            className="w-full h-full object-cover object-top rounded-lg transition-all duration-700 transform group-hover:scale-105"
           />
         </div>
       </div>
