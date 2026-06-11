@@ -41,3 +41,22 @@ body {
     -webkit-text-fill-color: transparent;
   }
 }
+
+.watermark-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image: url('/images/gallery/watermark.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  opacity: 0.05;
+  animation: pulseBg 15s infinite alternate ease-in-out;
+}
+
+@keyframes pulseBg {
+  0% { transform: scale(1); opacity: 0.04; }
+  100% { transform: scale(1.05); opacity: 0.08; }
+}

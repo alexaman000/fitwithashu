@@ -19,7 +19,10 @@ export default function Footer() {
     contact: locale === "hi" ? "संपर्क करें" : "Contact",
     disclaimer: locale === "hi"
       ? "एक सैनिक के अनुशासन से प्रेरित। © 2026 फिटविथआशुतोष। सभी अधिकार सुरक्षित।"
-      : "Inspired by the discipline of a Soldier. © 2026 FitWithAshutosh. All Rights Reserved."
+      : "Inspired by the discipline of a Soldier. © 2026 FitWithAshutosh. All Rights Reserved.",
+    quote: locale === "hi"
+      ? "\"स्टेरॉयड्स को ना कहें, अपना शरीर प्राकृतिक रूप से बनाएं।\""
+      : "\"Say No to Steroids, Build Your Body Naturally.\""
   };
 
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
@@ -139,6 +142,13 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto h-px bg-white/5 my-10" />
+
+      {/* Quote */}
+      <div className="max-w-7xl mx-auto text-center mb-10 relative z-10">
+        <p className="text-xl md:text-2xl font-black italic tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-accent to-white">
+          {t.quote}
+        </p>
+      </div>
 
       {/* Copyright info */}
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 text-text-secondary text-xs text-center relative z-10">
