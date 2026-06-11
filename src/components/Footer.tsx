@@ -18,8 +18,8 @@ export default function Footer() {
     vault: locale === "hi" ? "द वॉल्ट" : "The Vault",
     contact: locale === "hi" ? "संपर्क करें" : "Contact",
     disclaimer: locale === "hi"
-      ? "सेंट्रल रिजर्व पुलिस फोर्स (CRPF) के अनुशासन से प्रेरित। © 2026 फिटविथआशुतोष। सभी अधिकार सुरक्षित।"
-      : "Inspired by the discipline of the CRPF. © 2026 FitWithAshutosh. All Rights Reserved."
+      ? "एक सैनिक के अनुशासन से प्रेरित। © 2026 फिटविथआशुतोष। सभी अधिकार सुरक्षित।"
+      : "Inspired by the discipline of a Soldier. © 2026 FitWithAshutosh. All Rights Reserved."
   };
 
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
@@ -126,8 +126,8 @@ export default function Footer() {
             </li>
             <li className="flex items-center gap-3">
               <Mail className="w-4 h-4 text-accent" />
-              <a href="mailto:info@fitwithashutosh.com" className="hover:text-white transition-colors">
-                info@fitwithashutosh.com
+              <a href="mailto:ak110113013@gmail.com" className="hover:text-white transition-colors">
+                ak110113013@gmail.com
               </a>
             </li>
             <li className="flex items-center gap-3">

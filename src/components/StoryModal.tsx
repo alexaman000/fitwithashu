@@ -15,14 +15,14 @@ export default function StoryModal({ isOpen, onClose }: StoryModalProps) {
   const t = {
     title: locale === "hi" ? "आशुतोष कुमार की कहानी" : "Ashutosh Kumar's Story",
     tagline: locale === "hi" ? "अनुशासन में ढली और फिटनेस में निखारी गई यात्रा" : "A journey forged in discipline, perfected in fitness",
-    crpfTitle: locale === "hi" ? "CRPF में देश सेवा" : "Serving the Nation in CRPF",
+    crpfTitle: locale === "hi" ? "एक सैनिक के रूप में देश सेवा" : "Serving the Nation as a Soldier",
     crpfText: locale === "hi" 
-      ? "सेंट्रल रिजर्व पुलिस फोर्स (CRPF) के एक जवान के रूप में, मैंने सीखा कि असली अनुशासन क्या होता है। मुश्किल से मुश्किल परिस्थितियों में मानसिक संतुलन और शारीरिक क्षमता को बनाए रखना ही मेरा दैनिक जीवन था। यही वो बुनियाद है जिसने मुझे सिखाया कि शरीर केवल वही कर सकता है जिसके लिए दिमाग उसे तैयार करता है।" 
-      : "As a soldier in the Central Reserve Police Force (CRPF), I learned the true definition of discipline. Maintaining absolute mental toughness and physical endurance under extreme conditions was my daily duty. This foundation taught me that the body only achieves what the mind believes.",
+      ? "एक सैनिक के रूप में, मैंने सीखा कि असली अनुशासन क्या होता है। मुश्किल से मुश्किल परिस्थितियों में मानसिक संतुलन और शारीरिक क्षमता को बनाए रखना ही मेरा दैनिक जीवन था। यही वो बुनियाद है जिसने मुझे सिखाया कि शरीर केवल वही कर सकता है जिसके लिए दिमाग उसे तैयार करता है।" 
+      : "As a soldier, I learned the true definition of discipline. Maintaining absolute mental toughness and physical endurance under extreme conditions was my daily duty. This foundation taught me that the body only achieves what the mind believes.",
     fitnessTitle: locale === "hi" ? "कोचिंग में बदलाव" : "Transition to Elite Coaching",
     fitnessText: locale === "hi"
-      ? "सेना के बाद, मैंने अपने जीवन का मिशन बनाया - लोगों को उनकी फिटनेस यात्रा में सही दिशा दिखाना। पिछले 8 वर्षों से, मैंने वैज्ञानिक दृष्टिकोण और सैन्य सटीकता को मिलाकर 1,000 से अधिक लोगों का मार्गदर्शन किया है। मेरा लक्ष्य सिर्फ वजन कम करना नहीं, बल्कि एक ऐसा मजबूत माइंडसेट बनाना है जो कभी हार न माने।"
-      : "Post-service, I made it my life's mission to guide others toward physical dominance and health. Over the last 8+ years, combining military precision with advanced sports science, I have coached more than 1,000 clients globally. My goal isn't just physical training; it's building a bulletproof mindset.",
+      ? "सेना के बाद, मैंने अपने जीवन का मिशन बनाया - लोगों को उनकी फिटनेस यात्रा में सही दिशा दिखाना। पिछले 10+ वर्षों से, मैंने वैज्ञानिक दृष्टिकोण और सैन्य सटीकता को मिलाकर 1,000 से अधिक लोगों का मार्गदर्शन किया है। मेरा लक्ष्य सिर्फ वजन कम करना नहीं, बल्कि एक ऐसा मजबूत माइंडसेट बनाना है जो कभी हार न माने।"
+      : "Post-service, I made it my life's mission to guide others toward physical dominance and health. Over the last 10+ years, combining military precision with advanced sports science, I have coached more than 1,000 clients globally. My goal isn't just physical training; it's building a bulletproof mindset.",
     specialtiesTitle: locale === "hi" ? "मेरी विशेषज्ञता" : "Areas of Expertise",
     specialties: [
       {
@@ -88,7 +88,7 @@ export default function StoryModal({ isOpen, onClose }: StoryModalProps) {
 
             {/* Content Body */}
             <div className="space-y-6 text-text-secondary text-sm md:text-base leading-relaxed">
-              {/* CRPF Block */}
+              {/* Soldier Block */}
               <div className="flex flex-col md:flex-row gap-4 items-start">
                 <div className="p-3 bg-accent/10 border border-accent/20 rounded-lg text-accent self-start md:self-auto">
                   <Shield className="w-6 h-6" />
@@ -110,7 +110,7 @@ export default function StoryModal({ isOpen, onClose }: StoryModalProps) {
                 </div>
               </div>
 
-              {/* Image highlight of CRPF service or workout */}
+              {/* Image highlight of service or workout */}
               <div className="relative w-full h-48 md:h-64 rounded-xl overflow-hidden border border-white/10 my-6">
                 <img
                   src="/images/gallery/gallery-4.jpg" 

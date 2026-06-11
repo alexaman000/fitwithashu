@@ -114,7 +114,7 @@ export default function AboutSection() {
           {/* Using a placeholder for now until we load the gallery images properly, but let's use one of the uploaded ones */}
           <img
             src="/images/gallery/gallery-2.jpg"
-            alt="Ashutosh Kumar CRPF"
+            alt="Ashutosh Kumar Soldier"
             className="w-full h-full object-cover object-top rounded-lg filter grayscale group-hover:grayscale-0 transition-all duration-700 transform group-hover:scale-105"
           />
         </div>
@@ -126,7 +126,7 @@ export default function AboutSection() {
       {/* Stats Counter Section */}
       <div ref={statsRef} className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 mt-24">
         {[
-          { value: "8+", label: t("stats.experience") },
+          { value: "10+", label: t("stats.experience") },
           { value: "1000+", label: t("stats.clients") },
           { value: "500+", label: t("stats.transformations") },
           { value: "24/7", label: t("stats.support") },

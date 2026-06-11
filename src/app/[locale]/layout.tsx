@@ -19,7 +19,7 @@ const notoSansDevanagari = Noto_Sans_Devanagari({
 
 export const metadata: Metadata = {
   title: "FitWithAshu | Premium Fitness Coach",
-  description: "Disciplined. Powerful. Motivational. Join Ashutosh Kumar, CRPF Soldier and Professional Fitness Coach with 8+ Years of Experience.",
+  description: "Disciplined. Powerful. Motivational. Join Ashutosh Kumar, Soldier and Professional Fitness Coach with 10+ Years of Experience.",
 };
 
 export default async function RootLayout({
