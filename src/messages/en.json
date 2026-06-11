@@ -1,0 +1,69 @@
+{
+  "HomePage": {
+    "hero": {
+      "headline": "DISCIPLINE CREATES STRENGTH",
+      "subheadline": "CRPF Soldier | Professional Fitness Coach | 8+ Years Experience",
+      "quote": "\"Serving the Nation with Discipline. Transforming Lives through Fitness.\"",
+      "cta1": "Book Consultation",
+      "cta2": "Start Your Transformation",
+      "cta3": "Watch Transformation Stories",
+      "cta_whatsapp": "WhatsApp"
+    }
+  },
+  "AboutSection": {
+    "subtitle": "THE JOURNEY OF DISCIPLINE",
+    "title": "FORGED IN SERVICE, PERFECTED IN THE GYM",
+    "paragraph1": "With over 8 years of relentless dedication to fitness and the unyielding discipline of a CRPF Soldier, I have made it my mission to transform lives. Fitness isn't just about lifting weights; it's about building a mindset that refuses to quit.",
+    "paragraph2": "My approach combines military precision with advanced exercise science to deliver results that last. Whether your goal is fat loss, muscle gain, or complete body recomposition, we will achieve it together with structured, no-nonsense coaching.",
+    "cta": "Read My Full Story",
+    "stats": {
+      "experience": "Years Experience",
+      "clients": "Clients Trained",
+      "transformations": "Transformations",
+      "support": "Support"
+    }
+  },
+  "GallerySection": {
+    "title": "THE VAULT",
+    "subtitle": "Proof of Work"
+  },
+  "ServicesSection": {
+    "subtitle": "WHAT I OFFER",
+    "title": "ELITE COACHING SERVICES",
+    "services": {
+      "learn_more": "Learn More",
+      "personal_training": {
+        "title": "Personal Training",
+        "description": "1-on-1 coaching focused on technique, intensity, and guaranteed results."
+      },
+      "online_coaching": {
+        "title": "Online Coaching",
+        "description": "Custom workout and diet plans accessible from anywhere in the world."
+      },
+      "weight_loss": {
+        "title": "Weight Loss",
+        "description": "Sustainable fat loss programs designed to keep the weight off forever."
+      },
+      "muscle_gain": {
+        "title": "Muscle Gain",
+        "description": "Hypertrophy specific training to build lean, dense muscle mass."
+      },
+      "strength_training": {
+        "title": "Strength Training",
+        "description": "Increase your 1RM and overall physical power with compound movements."
+      },
+      "body_recomposition": {
+        "title": "Body Recomposition",
+        "description": "Lose fat and build muscle simultaneously through precise programming."
+      },
+      "competition_prep": {
+        "title": "Competition Prep",
+        "description": "Rigorous prep protocols for bodybuilding and fitness competitions."
+      },
+      "diet_consultation": {
+        "title": "Diet Consultation",
+        "description": "Macronutrient-calculated meal plans tailored to your specific goals."
+      }
+    }
+  }
+}
