@@ -7,8 +7,8 @@ export default function Footer() {
   const locale = useLocale();
 
   const t = {
-    brandFirst: "FITWITH",
-    brandSecond: "ASHUTOSH",
+    brandFirst: "ASHUTOSH",
+    brandSecond: "FITNESS",
     tagline: locale === "hi" 
       ? "अनुशासन ही जीत की कुंजी है। सेना का अनुशासन, वैज्ञानिक दृष्टिकोण, और आपके फिटनेस गोल्स।" 
       : "Discipline is the key to victory. Military precision, advanced sports science, and your fitness goals.",
@@ -18,8 +18,8 @@ export default function Footer() {
     vault: locale === "hi" ? "द वॉल्ट" : "The Vault",
     contact: locale === "hi" ? "संपर्क करें" : "Contact",
     disclaimer: locale === "hi"
-      ? "एक सैनिक के अनुशासन से प्रेरित। © 2026 फिटविथआशुतोष। सभी अधिकार सुरक्षित।"
-      : "Inspired by the discipline of a Soldier. © 2026 FitWithAshutosh. All Rights Reserved.",
+      ? "एक सैनिक के अनुशासन से प्रेरित। © 2026 आशुतोष फिटनेस। सभी अधिकार सुरक्षित।"
+      : "Inspired by the discipline of a Soldier. © 2026 Ashutosh Fitness. All Rights Reserved.",
     quote: locale === "hi"
       ? "\"स्टेरॉयड्स को ना कहें, अपना शरीर प्राकृतिक रूप से बनाएं।\""
       : "\"Say No to Steroids, Build Your Body Naturally.\""
@@ -47,9 +47,9 @@ export default function Footer() {
               e.preventDefault();
               window.scrollTo({ top: 0, behavior: "smooth" });
             }}
-            className="font-black text-2xl tracking-tighter text-white hover:opacity-90 transition-opacity"
+            className="font-black text-2xl tracking-tighter text-white hover:opacity-90 transition-opacity flex items-center gap-1"
           >
-            {t.brandFirst}<span className="text-accent">{t.brandSecond}</span>
+            {t.brandFirst}<Dumbbell className="w-5 h-5 text-accent mx-0.5" /><span className="text-accent">{t.brandSecond}</span>
           </a>
           <p className="text-text-secondary text-sm leading-relaxed max-w-sm">
             {t.tagline}

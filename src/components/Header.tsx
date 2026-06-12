@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Link } from "@/i18n/routing";
 import { useLocale } from "next-intl";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, X, Phone, Dumbbell } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import ConsultationModal from "./ConsultationModal";
 
@@ -13,8 +13,8 @@ export default function Header() {
   const [isConsultationOpen, setIsConsultationOpen] = useState(false);
 
   const t = {
-    brandNameFirst: "FITWITH",
-    brandNameSecond: "ASHUTOSH",
+    brandNameFirst: "ASHUTOSH",
+    brandNameSecond: "FITNESS",
     about: locale === "hi" ? "मेरे बारे में" : "About Me",
     services: locale === "hi" ? "सेवाएं" : "Coaching Services",
     vault: locale === "hi" ? "द वॉल्ट" : "The Vault",
@@ -47,9 +47,9 @@ export default function Header() {
             e.preventDefault();
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
-          className="font-black text-xl md:text-2xl tracking-tighter text-white hover:opacity-90 transition-opacity"
+          className="font-black text-xl md:text-2xl tracking-tighter text-white hover:opacity-90 transition-opacity flex items-center gap-1"
         >
-          {t.brandNameFirst}<span className="text-accent">{t.brandNameSecond}</span>
+          {t.brandNameFirst}<Dumbbell className="w-5 h-5 text-accent mx-0.5" /><span className="text-accent">{t.brandNameSecond}</span>
         </a>
 
         {/* Desktop Navigation */}
